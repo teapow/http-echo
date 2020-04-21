@@ -31,6 +31,6 @@ The behaviour of the application can be modified via the following environment v
 | Name           | Default value                    | Description                                         |
 |----------------|----------------------------------|-----------------------------------------------------|
 | `ECHO_MESSAGE` | `"This is the default message."` | Controls the message returned in the HTTP response. |
-| `SERVER_HOST`  | `"127.0.0.1"`                    | The hostname to listen on.                          |
+| `SERVER_HOST`  | `"0.0.0.0"`                      | The hostname to listen on.                          |
 | `SERVER_PORT`  | `8080`                           | The port of the webserver.                          |
 | `SERVER_DEBUG` | `False`                          | Controls whether the webserver runs in debug mode.  |
