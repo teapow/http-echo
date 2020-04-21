@@ -10,7 +10,7 @@ Includes a Dockerfile to "containerise" the application.
 To build the image, run the following command from the root of this repository:
 
 ```shell script
-docker build . --tags=http-echo:latest
+docker build . --tag=http-echo:latest
 ```
 
 ## Running the image
