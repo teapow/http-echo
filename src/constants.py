@@ -8,6 +8,6 @@ ENV_DEBUG = "SERVER_DEBUG"
 
 # Default values for unset environment variables.
 DEFAULT_MESSAGE = "This is the default message."
-DEFAULT_HOST = "127.0.0.1"
+DEFAULT_HOST = "0.0.0.0"
 DEFAULT_PORT = 8080
 DEFAULT_DEBUG = False
