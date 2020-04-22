@@ -2,7 +2,14 @@
 
 A simple, HTTP server (written with [Flask](https://flask.palletsprojects.com/)) that returns a response based on the value of the ECHO_MESSAGE environment variable.
 
-Includes a Dockerfile to "containerise" the application.
+
+## Pre-built image
+
+A pre-built image is available for use on [Docker Hub](https://hub.docker.com/repository/docker/teapow/http-echo).
+
+```
+teapow/http-echo
+```
 
 
 ## Building the image
